@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+   width: 100%;
+   max-height: 100vh;
+   position: relative;
+}
+#container{
+   width: auto;
+   height: auto;
+}
+#container .hms img{
+   color: black;
+}
+a{
+   text-decoration: none;
+}
+li{
+   list-style: none;
+}
+.hms h1{
+   color: black;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   padding: 20px 40px;
+}
+.side-menu{
+   background: tomato;
+   overflow: hidden;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   width: 25vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+}
+.side-menu .hms{
+   height: 14vh;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.side-menu li{
+   font-size: 20px;
+   padding: 20px 40px;
+   color: black;
+   display: flex;
+   align-items: center;
+}
+.side-menu li a{
+   color: black;
+    text-decoration: none;
+}
+.side-menu li a:hover{
+   background: white;
+   color: tomato;
+}
+li button{
+   background: tomato;
+   color: black;
+   border: 0;
+   font-size: 20px;
+ }
+ .side-menu li button:hover{
+    background: white;
+    color: tomato;
+ }
+.side-menu li:hover{
+   background: white;
+   color: tomato;
+}
+.logout{
+   height: 20px;
+   padding: 20px 40px;
+   margin-top: 60px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logout a{
+   color: black;
+    text-decoration: none;
+}
+.logout a:hover{
+   background: white;
+   color: tomato;
+}
+.logout:hover{
+   background: white;
+   color: tomato;
+}
+.main-content {
+   margin-left:80px;
+   padding: 10px;
+   margin-right: -20%;
+}
+
+@media (max-width: 768px) {
+   .side-menu {
+       width: 100%;
+       position: static;
+   }
+
+   .main-content {
+       margin-left: 0;
+   }
+}
+#ex{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 10vw;
+   text-decoration: underline;
+}

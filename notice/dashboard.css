@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+   width: 100%;
+   max-height: 100vh;
+   position: relative;
+}
+#container{
+   width: auto;
+   height: auto;
+}
+#container .hms img{
+   color: black;
+}
+a{
+   text-decoration: none;
+}
+li{
+   list-style: none;
+}
+.hms h1{
+   color: black;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   padding: 20px 40px;
+}
+.side-menu{
+   background: tomato;
+   width: 25vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+}
+.side-menu .hms{
+   height: 14vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.side-menu li{
+   font-size: 20px;
+   padding: 20px 40px;
+   color: black;
+   display: flex;
+   align-items: center;
+}
+.side-menu li a{
+   color: black;
+    text-decoration: none;
+}
+.side-menu li a:hover{
+   background: white;
+   color: tomato;
+}
+.side-menu li button{
+    color: black;
+     text-decoration: none;
+ }
+ .side-menu li button:hover{
+    background: white;
+    color: tomato;
+ }
+.side-menu li:hover{
+   background: white;
+   color: tomato;
+}
+.logout{
+   height: 20px;
+   padding: 20px 40px;
+   margin-top: 60px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logout a{
+   color: black;
+    text-decoration: none;
+}
+.logout a:hover{
+   background: white;
+   color: tomato;
+}
+.logout:hover{
+   background: white;
+   color: tomato;
+}
+.main-content h1{
+    text-align: center;
+    margin-left: 50vh;
+    padding: 30vh 0vh;
+    font-size: 36px;
+    font-weight: 600;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: transparent ;
+}
+.container {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+.personal{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.input-box:nth-child(2n){
+    justify-content: start;
+}
+.input-box label{
+    width: 95%;
+    margin: 5px 0;
+}
+.input-box input{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+    font-size: 12px;
+}
+#male , #female{
+    margin: 0 10px 0 60px;
+}
+.g-cat{ 
+    margin:  2px 0;
+    padding: 10px 0;
+}
+.ad{
+    margin: 10px 70px 0px 0px;
+    padding: 0px;
+}
+.ad input{
+    height: 30px;
+    width: 50vh;
+    padding: 0 10px;
+}
+.container .btn {
+    width: 30%;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    background:tomato;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+select{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+}
+.container .asbtn {
+    width: 30%;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 220px;
+    background:tomato;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
